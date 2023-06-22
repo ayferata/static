@@ -32,6 +32,10 @@ System.out.println(courseName);
         }
     }
 
-public static void main(String[] args) { Course c1 = new Course("Mat-101" , "MAT" , "MAT");         Course.courseList();
+public static void main(String[] args) 
+  { 
+Course c1 = new Course("Mat-101" , "MAT" , "MAT");      
+Course.courseList();
+   
     }
 }
