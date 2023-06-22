@@ -24,7 +24,11 @@ this.code = code;
 this.prefix = prefix; 
 this.note = 0;     }
 
-public static void courseList() { String[] courseList = {"fizik", "kimya", "matematik"}; for (String courseName : courseList) {             System.out.println(courseName);
+public static void courseList() { 
+String[] courseList = {"fizik", "kimya", "matematik"}; 
+for (String courseName : courseList) 
+ {            
+System.out.println(courseName);
         }
     }
 
